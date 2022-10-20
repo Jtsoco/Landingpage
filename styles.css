@@ -1,0 +1,32 @@
+/*styles.css*/
+
+.top {
+    display:flex;
+    background-color: grey;
+    flex-direction: column;
+    
+
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+
+.headerlinks {
+    margin: 0px 30px;
+
+}
+.logo {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/*tblock section*/
+
+.tblock {
+    display: flex;
+    padding: 40px;
+}
