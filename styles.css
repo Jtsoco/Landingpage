@@ -22,18 +22,28 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 8px;
+    padding: 20px;
     background-color: lightblue;
+    align-items: center;
 }
 
 .headerlinks {
+    display: flex;
     margin: 0px 30px;
+    gap: 20px;
+    
 
 }
 .logo {
     margin-right: 30px;
     margin-left: 30px;
+    
 }
+.pic1 {
+   width: 100px;
+   height: auto; 
+}
+ 
 
 /*tblock section*/
 
@@ -42,6 +52,8 @@ body {
     padding: 60px;
     background-color: lightgreen;
     column-gap: 30px;
+    justify-content: center;
+    gap: 70px;
     
     
 }
@@ -50,6 +62,8 @@ body {
     flex-direction: column;
     flex: 1 1 0;
     align-items: flex-start;
+    max-width: 400px;
+    
     
 }
 
@@ -69,6 +83,7 @@ body {
     align-items: center;
     background-color: grey;
     height: 200px;
+    max-width: 400px;
 }
 
 /*First main body section*/
@@ -149,10 +164,7 @@ gap: 30px;
 
 }
 
-.footer {
-    display: flex;
-    background-color: black;
-}
+
 
 /*bottom of the page*/
 
@@ -192,4 +204,13 @@ gap: 30px;
 .signup2 {
     margin: 0px;
 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
