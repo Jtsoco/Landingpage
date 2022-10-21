@@ -32,8 +32,12 @@ body {
     margin: 0px 30px;
     gap: 20px;
     
-
 }
+.linksin {
+    text-decoration: none;
+    
+}
+
 .logo {
     margin-right: 30px;
     margin-left: 30px;
@@ -62,8 +66,12 @@ body {
     flex-direction: column;
     flex: 1 1 0;
     align-items: flex-start;
-    max-width: 400px;
+    max-width: 300px;
     
+}
+.tblocksub1-1 {
+    font-size: 20px;
+    font-weight: bold;
     
 }
 
@@ -73,7 +81,11 @@ body {
     margin-top: auto;
     padding: 5px 10px;
     border-radius: 10px;
+    background-color: rgb(248, 229, 122);
     
+}
+.tblockbutton1 {
+    margin-top: auto;
 }
 
 .tblocksub2 {
@@ -84,6 +96,11 @@ body {
     background-color: grey;
     height: 200px;
     max-width: 400px;
+}
+.vyke {
+    max-width: 500px;
+    height: auto;
+    
 }
 
 /*First main body section*/
@@ -111,24 +128,36 @@ gap: 30px;
     padding-bottom: 10px;
     
 }
+.m1block2 {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
 .m1block2-1 {
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 150px;
+    
+
 }
 .box1 {
     
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     margin: 0px;
     border:5px blue solid;
     border-radius: 5px;
+
     
-    background-color: black;
+    
 }
 
+.boxone, .boxtwo, .boxthree, .boxfour {
+    width: 300px;
+    height: 300px;
+}
 .boxu {margin-left: auto;
     
 
@@ -182,7 +211,7 @@ gap: 30px;
     background-color: rgb(252, 152, 252);
     margin: 30px;
     width: 600px;
-    justify-content: space-around
+    justify-content: space-between;
    
 }
 .bblocksub1 {
@@ -191,19 +220,29 @@ gap: 30px;
     background-color: orange;
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    flex: initial;
     
 
 }
 .bblocksub2 {
     display: flex;
+    flex: auto;
     justify-content: center;
-    align-self: center;
+
+    
+   
+    
+    
     
     
 }
 .signup2 {
     margin: 0px;
-
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    
 }
 
 .footer {
