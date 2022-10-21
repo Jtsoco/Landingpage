@@ -1,5 +1,16 @@
 /*styles.css*/
+html {
+    height: 100%;
+    
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: dodgerblue;
+   
+}
 .top {
     display:flex;
    
@@ -61,3 +72,35 @@
 }
 
 /*First main body section*/
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+    align-items: center;
+}
+.m1block2 {
+display: flex;
+
+
+}
+.m1block2-1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box1 {
+    
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border:5px blue solid;
+    
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+}
