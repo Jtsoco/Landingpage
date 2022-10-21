@@ -81,23 +81,72 @@ body {
 }
 .m1block2 {
 display: flex;
+margin: 20px;
+
+justify-content: center;
+gap: 30px;
 
 
+}
+
+.m1block1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    padding-bottom: 10px;
+    
 }
 .m1block2-1 {
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 150px;
 }
 .box1 {
     
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+    width: 150px;
+    height: 150px;
+    margin: 0px;
     border:5px blue solid;
+    border-radius: 5px;
     
     background-color: black;
+}
+
+.boxu {margin-left: auto;
+    
+
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    
+    
+}
+.m2block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 100px;
+    
+}
+.main2p {
+    font-style: italic;
+    max-width: 500px;
+    margin-bottom: 0px;
+}
+.name {display: flex;
+    flex: 0 1 auto;
+    
+    align-self: flex-end;
+
+
 }
 
 .footer {
