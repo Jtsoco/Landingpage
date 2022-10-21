@@ -2,7 +2,7 @@
 
 .top {
     display:flex;
-    background-color: grey;
+   
     flex-direction: column;
     
 
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 8px;
-    
+    background-color: lightblue;
 }
 
 .headerlinks {
@@ -28,5 +28,36 @@
 
 .tblock {
     display: flex;
-    padding: 40px;
+    padding: 60px;
+    background-color: lightgreen;
+    column-gap: 30px;
+    
+    
 }
+.tblocksub1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    align-items: flex-start;
+    
+}
+
+.tblockbutton {
+    display: flex;
+    flex:0 1 0;
+    margin-top: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+
+.tblocksub2 {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 200px;
+}
+
+/*First main body section*/
