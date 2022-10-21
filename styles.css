@@ -153,3 +153,43 @@ gap: 30px;
     display: flex;
     background-color: black;
 }
+
+/*bottom of the page*/
+
+.bottom {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bblock {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(252, 152, 252);
+    margin: 30px;
+    width: 600px;
+    justify-content: space-around
+   
+}
+.bblocksub1 {
+    
+   
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.bblocksub2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+    
+}
+.signup2 {
+    margin: 0px;
+
+}
