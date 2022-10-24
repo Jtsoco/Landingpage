@@ -12,7 +12,9 @@ body {
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    background-color: #183937;
+    background: linear-gradient( #0B2023, #113130, #153F3E, #2A4742, #4F624F, #746045, #A16A34, #DAB766, #DB9C57, #DAB766, #A16A34, #746045, #4F624F, #2A4742, #153F3E, #113130, #0B2023);
+    text-shadow: 0 0 3px black, 0 0 5px black;
+
 }
 .top {
     display:flex;
@@ -176,7 +178,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #696E57;
+    
     
     
     
@@ -196,11 +198,13 @@ flex-wrap: wrap;
     font-style: italic;
     max-width: 500px;
     margin-bottom: 0px;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 }
 .name {display: flex;
     flex: 0 1 auto;
     
     align-self: flex-end;
+    text-shadow: 0 0 3px black, 0 0 5px black;
 
 
 }
@@ -220,7 +224,7 @@ flex-wrap: wrap;
     display: flex;
     align-items: center;
     padding: 30px;
-    background-color: blue;
+    background:linear-gradient(to bottom right, #DAB766, #DB9C57, #DAB766);
     margin: 30px;
     width: 600px;
     justify-content: space-between;
